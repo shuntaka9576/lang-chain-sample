@@ -2,6 +2,10 @@ install libs
 
 ```bash
 uv sync
+```
+
+setting api key
+```bash
 echo "xxx" > .OPEN_AI_API_KEY
 ```
 
@@ -12,8 +16,8 @@ FROM "Artist"
 WHERE "Name" LIKE 'A%'
 ORDER BY "Name"
 LIMIT 5;
-```
 
-```bash
-source .venv/bin/activate
+# or
+$ source .venv/bin/activate
+$ python3 main.py
 ```
